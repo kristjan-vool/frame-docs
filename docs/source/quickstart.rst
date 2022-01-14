@@ -8,7 +8,7 @@ Hello, World!
 
 Define core and frame objects.
 
-.. code-block:: console
+.. code-block:: c++
 
    const FrameConfigSQL config = FrameConfigSQL("", "", "");
    const FrameTranslations translations = FrameTranslations(config);
@@ -19,7 +19,7 @@ Define core and frame objects.
 
 Define first route
 
-.. code-block:: console
+.. code-block:: c++
 
    void hello(const Request& request, Response& response) {
     response.send(renderer.render("hello.html", {{"name", "World"}}, nullptr));
@@ -27,7 +27,7 @@ Define first route
 
 Define main
 
-.. code-block:: console
+.. code-block:: c++
 
    int main(int arg_count, char* arg_values[]) {
     CoreServer server = CoreServer(router, 8000, 1);
@@ -37,6 +37,6 @@ Define main
 
 Create template file ``hello.html``
 
-.. code-block:: console
+.. code-block:: c++
 
    Hello, {{ name }}!
