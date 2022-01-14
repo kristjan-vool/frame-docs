@@ -24,6 +24,7 @@ Define first route
    }
 
 Define main
+
 .. code-block:: c++
    int main(int arg_count, char* arg_values[]) {
     CoreServer server = CoreServer(router, 8000, 1);
@@ -32,5 +33,6 @@ Define main
    }
 
 Create template file ``hello.html``
+
 .. code-block:: c++
    Hello, {{ name }}!
