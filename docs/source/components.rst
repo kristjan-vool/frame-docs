@@ -1,5 +1,14 @@
-Components
+Web Components
 =====
+
+**Bold** - Required
+
+*Italic* - Optional
+
+``::`` - Default value
+
+``|`` - Multiple values
+
 
 button
 ------------
