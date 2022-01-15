@@ -9,6 +9,8 @@ button
 * *icon* : ``string`` - Icon name
 * *href* : ``string`` - Link to open on click
 
+.. image:: ../img/button.jpg
+
 checkboxes
 ------------
 
