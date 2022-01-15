@@ -9,7 +9,7 @@ button
 * *icon* : ``string`` - Icon name
 * *href* : ``string`` - Link to open on click
 
-.. image:: ../img/button.jpg
+.. image:: ../img/button.png
 
 checkboxes
 ------------
@@ -20,6 +20,8 @@ checkboxes
 	* *value* : ``string = ::id`` - Option custom value, id by default
 	* *checked* : ``boolean = ::false|true`` - Is option checked
 	* **label** : ``string`` - Option label
+	
+.. image:: ../img/checkboxes.png
 
 dropdown
 ------------
@@ -31,6 +33,8 @@ dropdown
 * **choices** : ``object list`` - List of choices
 	* **label** : ``string`` - Choice label
 	* **value** : ``string`` - Choice value (eg. database ObjectID)
+
+.. image:: ../img/dropdown.png
   
 icon
 ------------
@@ -45,6 +49,8 @@ input
 * *required* : ``boolean = ::false|true`` - Is this form field required
 * *value* : ``string`` - Predefined value
 
+.. image:: ../img/input.png
+
 radios
 ------------
 
@@ -54,6 +60,8 @@ radios
 	* **label** : ``string`` - Option label
 	* *value* : ``string = ::id`` - Option value
 	* *checked* : ``boolean = ::false|true`` - Is the option checked by default
+
+.. image:: ../img/radios.png
   
 slider
 ------------
@@ -63,12 +71,16 @@ slider
 * **values** : ``string list`` - List of values
 * *required* : ``boolean = ::false|true`` - Is this form field required
 
+.. image:: ../img/slider.png
+
 switch
 ------------
 
 * **id** : ``string`` - Unique ID
 * **label** : ``string`` - Switch label
 * *value* : ``boolean = ::false|true`` - Off / On state
+
+.. image:: ../img/switch.png
 
 textarea
 ------------
@@ -77,7 +89,11 @@ textarea
 * **label** : ``string`` - Label of the textarea
 * *required* : ``boolean = ::false|true`` - Is this form field required
 
+.. image:: ../img/textarea.png
+
 tooltip
 ------------
 * **label** : ``string`` - Label of the tooltip
 * *direction* : ``string = left|right|top|bottom`` - Direction of tooltip pointing to
+
+.. image:: ../img/tooltip.png
