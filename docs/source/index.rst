@@ -12,3 +12,4 @@ Contents
 
    quickstart
    components
+   template_engine
