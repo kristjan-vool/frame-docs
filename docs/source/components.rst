@@ -10,7 +10,7 @@ Web Components
 ``|`` - Multiple values
 
 
-button
+Button
 ------------
 
 * *id* : ``string`` - Unique ID
@@ -20,7 +20,7 @@ button
 
 .. image:: ../img/button.png
 
-checkboxes
+Checkboxes
 ------------
 
 * **id** : ``string`` - Unique ID
@@ -32,7 +32,7 @@ checkboxes
 	
 .. image:: ../img/checkboxes.png
 
-dropdown
+Dropdown
 ------------
 
 * *id* : ``string`` - Unique ID
@@ -45,11 +45,11 @@ dropdown
 
 .. image:: ../img/dropdown.png
   
-icon
+Icon
 ------------
 * **icon** : ``string`` - Icon name
   
-input
+Input
 ------------
 
 * **id** : ``string`` - Unique ID
@@ -60,7 +60,7 @@ input
 
 .. image:: ../img/input.png
 
-radios
+Radios
 ------------
 
 * **id** : ``string`` - General name of radios
@@ -72,7 +72,7 @@ radios
 
 .. image:: ../img/radios.png
   
-slider
+Slider
 ------------
 * **id** : ``string`` - Unique ID
 * **label** : ``string`` - Label of the slider
@@ -82,7 +82,7 @@ slider
 
 .. image:: ../img/slider.png
 
-switch
+Switch
 ------------
 
 * **id** : ``string`` - Unique ID
@@ -91,7 +91,7 @@ switch
 
 .. image:: ../img/switch.png
 
-textarea
+Textarea
 ------------
 
 * **id** : ``string`` - Unique ID
@@ -100,7 +100,7 @@ textarea
 
 .. image:: ../img/textarea.png
 
-tooltip
+Tooltip
 ------------
 * **label** : ``string`` - Label of the tooltip
 * *direction* : ``string = left|right|top|bottom`` - Direction of tooltip pointing to
