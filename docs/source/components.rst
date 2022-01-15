@@ -14,10 +14,10 @@ checkboxes
 
 * **id** : ``string`` - Unique ID
 * **options** - ``object list`` - List of options
-  * **id** : ``string`` - Option unique ID
-  * *value* : ``string = ::id`` - Option custom value, id by default
-  * *checked* : ``boolean = ::false|true`` - Is option checked
-  * **label** : ``string`` - Option label
+	* **id** : ``string`` - Option unique ID
+	* *value* : ``string = ::id`` - Option custom value, id by default
+	* *checked* : ``boolean = ::false|true`` - Is option checked
+	* **label** : ``string`` - Option label
 
 dropdown
 ------------
